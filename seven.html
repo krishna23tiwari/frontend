@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .zoom{
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .zoom img{
+            object-fit: cover;
+            transition: tranform 0.8s;
+            height: 100%;
+        }
+
+        .zoom:hover img{
+            transform: scale(1.5);
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="zoom">
+        <img src="https://webneel.com/wallpaper/sites/default/files/images/08-2018/1-nature-wallpaper-grass-hd.1366.jpg" alt="grass">
+    </div>
+    
+</body>
+</html>
