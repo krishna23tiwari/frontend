@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+        }
+
+        @media(max-width:300px){
+            #one{
+                background-color: green;
+            }
+        }
+
+        @media(min-width: 300px) and (max-width:400px){
+            #two{
+                background-color: pink;
+            }
+        }
+
+        @media(min-width: 400px) and (max-width:600px){
+            #three{
+                background-color: red;
+            }
+        }
+
+        @media(min-width:600px){
+            #four{
+                background-color: blue;
+            }
+        }
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div id="one"></div><br><br>
+
+    <div id="two"></div><br><br>
+
+    <div id="three"></div><br><br>
+
+    <div id="four"></div><br><br>
+
+    
+    
+
+
+    
+</body>
+</html>
