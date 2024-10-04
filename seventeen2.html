@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            height: 200px;
+            width: 200px;
+            border: 10px solid #FFE66D;
+            border-radius: 50%;
+            border-top: 10px solid #4ECDC4;
+            text-align: center;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            animation: spin 2s ease-in-out 0s infinite normal;
+        }
+
+        @keyframes spin{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="loader">loader</div>
+    
+</body>
+</html>
